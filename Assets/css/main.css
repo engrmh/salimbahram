@@ -1,0 +1,64 @@
+@import url(./font.css);
+@import url(./loader.css);
+/* @import url(./theme-rtl.css); */
+
+*{
+    font-family: Vazir;
+    cursor: pointer;
+}
+body{
+    background: url(../img/back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* This was made with GlassGenerator.netlify.app */ 
+.glass-container{
+    color: white;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+}
+/* img:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    transition-timing-function: ease-in-out;
+} */
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+.row{
+    text-shadow: 2px 1px #000;
+}
+.notTextShadow{
+    text-shadow: none;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+    background-color: #04aa6d;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgba(248,249,250, 1);
+}
+.setColor{
+    background-color: #04aa6d;
+}
